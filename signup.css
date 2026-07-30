@@ -1,0 +1,101 @@
+*{
+    /* outline: 1px red solid; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+#leftbody{
+    flex: 1;
+}
+
+#rightbody{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightrow1{
+    flex:1.2 1 0px;
+    min-height: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#rightrow2{
+    flex:1 1 0px;
+    min-height: 0px;
+}
+
+#rightrow3{
+    flex:1.2 1 0px;
+    min-height: 0px;
+}
+
+#rightrow1text{
+    margin: 20vh 5vh 5vh 5vh;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#rightrow1text > p {
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+#rightrow2text{
+    margin: 2vh 5vh 3vh 5vh;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+form > div > div {
+    display: inline-block;
+}
+
+form > div > div > label{
+    display: block;
+}
+
+form{
+   margin: 3vh 5vh 0vh 5vh; 
+}
+
+form > div > div:nth-child(2) {
+    margin-left: 10vh;
+}
+
+form > div{
+    margin-bottom: 2vh;
+}
+
+input{
+    margin-top: 0.3vh;
+    border-radius: 0.75vh;
+    height: 3vh;
+    width: 25vh;
+    border-color: lightgray;
+    border-width: 0.2em;
+    border-style: groove;
+}
+
+#rightrow3 > div{
+    margin: 3vh 5vh 0vh 5vh;
+}
+
+#leftbody > img{
+    height: 100vh;
+}
+
+#rightrow3 > div > button{
+    margin-bottom: 3vh;
+}
+
+#rightrow3 > div > p{
+    font-size: 1em;
+    font-weight: bold;
+}
