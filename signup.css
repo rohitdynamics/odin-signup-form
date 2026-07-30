@@ -8,6 +8,7 @@
 body{
     display: flex;
     height: 100vh;
+    min-width: 100vw;;
 }
 
 #leftbody{
@@ -29,6 +30,7 @@ body{
 #rightrow2{
     flex:1 1 0px;
     min-height: 0px;
+    background-color: bisque;
 }
 
 #rightrow3{
@@ -78,9 +80,10 @@ input{
     border-radius: 0.75vh;
     height: 3vh;
     width: 25vh;
-    border-color: lightgray;
-    border-width: 0.2em;
-    border-style: groove;
+    outline: none;
+    /* border-color: aqua; */
+    border: 0.3vh solid #cccccc;
+    outline: none;
 }
 
 #rightrow3 > div{
@@ -93,9 +96,25 @@ input{
 
 #rightrow3 > div > button{
     margin-bottom: 3vh;
+    height: 5vh;
+    width: 32vh;
+    border-radius: 1.5vh;
+    border-style: none;
+    background-color: rgb(60, 60, 212);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
 }
 
 #rightrow3 > div > p{
     font-size: 1em;
     font-weight: bold;
+}
+
+input:focus{
+    border-color: blue;
+}
+
+input:user-invalid{
+    border-color: red;
 }
